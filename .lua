@@ -1,11 +1,3 @@
-local keyhandler = require(game.ReplicatedStorage:WaitForChild("Modules", math.huge):WaitForChild("ClientManager", math.huge):WaitForChild("KeyHandler", math.huge))
-
-local stack = debug.getupvalue(getrawmetatable(debug.getupvalue(keyhandler, 8)).__index, 1)[1][1]
-local GetKey = stack[89]
-local key = stack[64]
-getupvalue(GetKey, 2)[0][1][2][4] = "HtttpGet"
-local is_synapse_function = isexecutorclosure
-
 local setRP = function() end
 local destroyRP = function() end
 ---@diagnostic disable: invalid-class-name
