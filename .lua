@@ -16,7 +16,7 @@ local library = {
 	},
 	colors = {
 		main = Color3.fromRGB(255,155,0),
-		background = Color3.fromRGB(40,40,40),
+		background = Color3.fromRGB(0,0,0),
 		outerBorder = Color3.fromRGB(0,0,0),
 		innerBorder = Color3.fromRGB(255,155, 0),
 		topGradient = Color3.fromRGB(35, 35, 35),
